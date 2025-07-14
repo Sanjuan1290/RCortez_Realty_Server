@@ -3,7 +3,7 @@ require('express-async-errors')
 
 const express = require('express')
 const app = express()
-const routerListing = require('./router/listingRouter')
+const routerListing = require('./router/Router')
 const connectDB = require('./db/connect')
 const errorHandler = require('./util/handleError')
 
